@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#087443">
+<title>SARM - School Attendance & Records Manager</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f5f2;
+    color: #222;
+}
+
+header {
+    background: #087443;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 { margin: 0; font-size: 32px; }
+header p { margin-bottom: 0; }
+
+.container {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+h2 { color: #087443; }
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    background: #087443;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover { background: #065c35; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>SARM</h1>
+<p>School Attendance & Records Manager</p>
+<p>Smart School Management System</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Welcome to SARM</h2>
+<p>Manage your school records, teachers, students and daily attendance in one place.</p>
+</div>
+
+<div class="card">
+<h2>Administrator Login</h2>
+<input type="text" placeholder="Admin Username">
+<input type="password" placeholder="Admin Password">
+<button onclick="alert('Admin login system will be activated in the next update.')">
+Login as Admin
+</button>
+</div>
+
+<div class="card">
+<h2>Staff Login</h2>
+<input type="text" placeholder="Staff ID">
+<input type="password" placeholder="Staff PIN">
+<button onclick="alert('Staff login system will be activated in the next update.')">
+Login as Staff
+</button>
+</div>
+
+<div class="card">
+<h2>About SARM</h2>
+<p>SARM is designed to help schools manage attendance and educational records efficiently.</p>
+</div>
+
+</div>
+
+<footer>
+<p>SARM Web App V1.0</p>
+<p>© 2026 School Attendance & Records Manager</p>
+</footer>
+
+</body>
+</html>
